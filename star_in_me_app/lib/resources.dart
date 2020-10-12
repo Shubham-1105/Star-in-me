@@ -43,6 +43,7 @@ class _ResourcesPage extends State<Resources> {
                   padding: EdgeInsets.only(left: 10, top: 50),
                   child: MaterialButton(
                     color: Colors.transparent,
+                    onPressed: () {  },
                     child: Text('RESOURCE',
                         style: TextStyle(
                           color: Colors.black,
@@ -55,6 +56,7 @@ class _ResourcesPage extends State<Resources> {
                   color: Colors.transparent,
                   padding: EdgeInsets.only(left: 220, top: 50, right: 10),
                   child: MaterialButton(
+                    onPressed: () {  },
                     child: Text('REFINE BY',
                         style: TextStyle(
                           color: Colors.black,
@@ -98,6 +100,7 @@ class _ResourcesPage extends State<Resources> {
                                       shape: new RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(15),
                                       ),
+                                      onPressed: () {  },
                                       child: Text('TECHNOLOGY',
                                           style: TextStyle(
                                             color:
@@ -112,6 +115,7 @@ class _ResourcesPage extends State<Resources> {
                                       shape: new RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(15),
                                       ),
+                                      onPressed: () {  },
                                       child: Text('TECHNOLOGY',
                                           style: TextStyle(
                                             color:
@@ -130,6 +134,7 @@ class _ResourcesPage extends State<Resources> {
                                       shape: new RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(15),
                                       ),
+                                      onPressed: () {  },
                                       child: Text('+$tags',
                                           style: TextStyle(
                                             color:
@@ -191,7 +196,7 @@ class _ResourcesPage extends State<Resources> {
                                     child: IconButton(
                                       // icon: Icon(star_outlined,
                                       icon: Icon(Icons.star,
-                                          size: 20, color: Colors.grey[350]),
+                                          size: 20, color: Colors.grey[350]), onPressed: () {  },
                                     ),
                                   ),
                                   Expanded(
@@ -207,7 +212,7 @@ class _ResourcesPage extends State<Resources> {
                                         Icons.comment,
                                         color: Colors.grey[350],
                                         size: 20,
-                                      ),
+                                      ), onPressed: () {  },
                                     ),
                                   ),
                                   Expanded(
@@ -222,7 +227,7 @@ class _ResourcesPage extends State<Resources> {
                                         Icons.share,
                                         color: Colors.grey[350],
                                         size: 20,
-                                      ),
+                                      ), onPressed: () {  },
                                     ),
                                   ),
                                   Expanded(
@@ -237,7 +242,7 @@ class _ResourcesPage extends State<Resources> {
                                         Icons.visibility,
                                         color: Colors.grey[350],
                                         size: 20,
-                                      ),
+                                      ), onPressed: () {  },
                                     ),
                                   ),
                                   Expanded(
@@ -254,7 +259,7 @@ class _ResourcesPage extends State<Resources> {
                                         Icons.bookmark,
                                         size: 20,
                                         color: Colors.grey[350],
-                                      ),
+                                      ), onPressed: () {  },
                                     ),
                                   ),
                                 ],
